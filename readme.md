@@ -23,12 +23,25 @@ git commit -m "[message]"
 To work on a feature without affecting your main branch, create a new branch as follows:
 
 ```
-git checkout -b feature
+git checkout -b [branch]
 ```
 
 To view all branches for your project:
 
 ```
 git branch -a
+```
+
+To merge your feature changes into main:
+
+```
+git checkout main
+git merge [branch]
+```
+
+To delete a branch:
+
+```
+git branch -d [branch]
 ```
 
