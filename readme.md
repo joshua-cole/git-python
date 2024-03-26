@@ -45,3 +45,26 @@ To delete a branch:
 git branch -d [branch]
 ```
 
+To link your reposository with GitHub, create a repository through the GitHub UI.
+
+Copy the GIT URL from the generated repository page:
+
+![image](https://github.com/joshua-cole/git-python/assets/157483185/66556738-e096-47b1-bf11-288e19548055)
+
+Setup the remote origin:
+
+```
+git remote add origin [url]
+```
+
+The first time you push to a branch that does not exist on the remote repo, you must specify the upstream branch:
+
+```
+git push -u origin main
+```
+
+After that, you can simply push with:
+
+```
+git push
+```
