@@ -68,3 +68,9 @@ After that, you can simply push with:
 ```
 git push
 ```
+
+To pull changes from the GitHub repository:
+
+```
+git pull origin [branch]
+```
