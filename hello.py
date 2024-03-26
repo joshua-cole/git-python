@@ -1,3 +1,4 @@
+# a simple dice simulator
 import numpy as np
 
 msg = "Roll a dice!"
